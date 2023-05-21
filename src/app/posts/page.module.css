@@ -1,4 +1,16 @@
-.main {
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.title {
+  text-align: center;
+}
+
+.list {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -13,7 +25,4 @@
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 1rem;
-}
-
-.list {
 }
